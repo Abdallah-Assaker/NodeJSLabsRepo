@@ -1,5 +1,5 @@
 const fs = require("fs");
-const readline = require("readline")
+const readline = require("readline");
 
 //2-
 // rl= readline.createInterface({
@@ -10,7 +10,7 @@ const readline = require("readline")
 // rl.on("line", (line) => console.log(line + "\n =========="))
 
 ////////////////////////
-//3- 
+//3-
 // fs.rename("newWelcomrFile.txt" , "greet.txt",  (err) => {
 //     if (err) {
 //         console.log(err);
@@ -23,10 +23,10 @@ const readline = require("readline")
 
 //////////////////
 //4-
- // fs.unlink("./greet.txt", (err) => {
+// fs.unlink("./greet.txt", (err) => {
 //     if (err) {
 //         console.log(err);
-//     }    
+//     }
 //     else
 //     {
 //     console.log("File Deleted");
@@ -35,7 +35,7 @@ const readline = require("readline")
 
 //////////////////
 //5-
- // var writer = fs.createWriteStream("./newWelcomrFile.txt", "utf-8")
+// var writer = fs.createWriteStream("./newWelcomrFile.txt", "utf-8")
 // var reader = fs.createReadStream("./data.json", "utf-8");
 
 // reader.on("data", (data)=> {
@@ -67,7 +67,6 @@ const readline = require("readline")
 //         }
 //         else{
 //             console.log(`Directory created in ${path}`);
-//         }    
+//         }
 //     })
 // }
-
